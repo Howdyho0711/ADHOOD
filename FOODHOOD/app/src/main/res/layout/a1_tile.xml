@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="왕십리스테이크"
+            android:id="@+id/a1_id"
+            android:textStyle="bold"
+            android:textSize="17dp" />
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="20px"
+            android:layout_weight="0.99" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="300m"
+            android:id="@+id/a1_dist" />
+    </LinearLayout>
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:id="@+id/a1_video" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:weightSum="1"
+        android:layout_weight="0.06">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a1_nice"
+            android:layout_weight="0.03"
+            android:clickable="true" />
+
+        <Space
+            android:layout_width="25dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a1_loop"
+            android:layout_weight="0.03" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="808"
+            android:id="@+id/a1_loopnum"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="2dp"
+            android:textSize="13dp" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a1_coupon"
+            android:clickable="true" />
+
+        <Space
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a1_info"
+            android:clickable="true" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a1_other"
+            android:clickable="true" />
+
+    </LinearLayout>
+
+</LinearLayout>
