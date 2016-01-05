@@ -7,6 +7,13 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" ></application>
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".A1_main"
+            android:label=".A1_main">
+        </activity>
+
+    </application>
 
 </manifest>
