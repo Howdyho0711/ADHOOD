@@ -20,34 +20,50 @@
         <ImageButton
             android:layout_width="95dp"
             android:layout_height="match_parent"
-            android:id="@+id/imageButton"
+            android:id="@+id/homeButton"
             android:layout_row="0"
             android:layout_column="0"
-            android:clickable="true" />
+            android:clickable="true"
+            android:background="#323030"
+            android:src="@mipmap/home"
+            android:scaleType="centerInside"
+            android:padding="10dp" />
 
         <ImageButton
             android:layout_width="98dp"
             android:layout_height="match_parent"
-            android:id="@+id/imageButton2"
+            android:id="@+id/searchButton"
             android:layout_row="0"
             android:layout_column="1"
-            android:clickable="true" />
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:background="#323030"
+            android:src="@mipmap/searching"
+            android:padding="10dp" />
 
         <ImageButton
             android:layout_width="98dp"
             android:layout_height="match_parent"
-            android:id="@+id/imageButton3"
+            android:id="@+id/noticeButton"
             android:layout_row="0"
             android:layout_column="2"
-            android:clickable="true" />
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:background="#323030"
+            android:src="@mipmap/noticing"
+            android:padding="10dp" />
 
         <ImageButton
             android:layout_width="95dp"
             android:layout_height="match_parent"
-            android:id="@+id/imageButton4"
+            android:id="@+id/userButton"
             android:layout_row="0"
             android:layout_column="3"
-            android:clickable="true" />
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:background="#323030"
+            android:src="@mipmap/myhome"
+            android:padding="10dp" />
     </GridLayout>
 
 </LinearLayout>
