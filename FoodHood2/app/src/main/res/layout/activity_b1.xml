@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1_search" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1_list"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/b1_search"
+        android:layout_above="@+id/b1_menu" />
+
+    <kr.adhood.foodhood2.ScalableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/b1_menu"
+        sl:scale_base_width="400"
+        sl:scale_base_height="60"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/homeButton"
+            android:clickable="true"
+            android:src="@drawable/home"
+            android:background="#323030"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:padding="25dp"
+            sl:scale_left="0"
+            sl:scale_top="0"
+            sl:scale_width="100"
+            sl:scale_height="60" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchButton"
+            android:clickable="true"
+            android:src="@drawable/searching"
+            android:padding="25dp"
+            android:background="#323030"
+            android:scaleType="centerCrop"
+            sl:scale_left="100"
+            sl:scale_top="0"
+            sl:scale_width="100"
+            sl:scale_height="60"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/noticeButton"
+            android:clickable="true"
+            android:src="@drawable/noticing"
+            android:padding="25dp"
+            android:background="#323030"
+            android:scaleType="centerCrop"
+            sl:scale_left="200"
+            sl:scale_top="0"
+            sl:scale_width="100"
+            sl:scale_height="60"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/userButton"
+            android:clickable="true"
+            android:src="@drawable/myhome"
+            android:padding="25dp"
+            android:background="#323030"
+            android:scaleType="centerCrop"
+            sl:scale_left="300"
+            sl:scale_top="0"
+            sl:scale_width="100"
+            sl:scale_height="60"/>
+
+    </kr.adhood.foodhood2.ScalableLayout>
+</RelativeLayout>
