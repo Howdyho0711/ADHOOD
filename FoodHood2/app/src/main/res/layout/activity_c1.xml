@@ -13,9 +13,7 @@
         sl:scale_base_width="400"
         sl:scale_base_height="60"
         android:layout_alignParentBottom="true">
-
-<<<<<<< HEAD
-=======
+        
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -75,23 +73,14 @@
 
     </kr.adhood.foodhood2.ScalableLayout>
 
->>>>>>> origin/master
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-<<<<<<< HEAD
         android:text="내 소식"
         android:id="@+id/textView"
+        android:textSize="50dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
-=======
-        android:text="C1 이라능"
-        android:id="@+id/textView"
-        android:layout_marginTop="216dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textSize="50dp" />
 
->>>>>>> origin/master
 </RelativeLayout>
