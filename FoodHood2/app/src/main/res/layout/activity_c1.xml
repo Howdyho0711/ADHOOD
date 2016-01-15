@@ -13,7 +13,7 @@
         sl:scale_base_width="400"
         sl:scale_base_height="60"
         android:layout_alignParentBottom="true">
-        
+
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
