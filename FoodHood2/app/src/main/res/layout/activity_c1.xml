@@ -77,10 +77,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="내 소식"
+        android:text="가게계정 소식"
         android:id="@+id/textView"
         android:textSize="50dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/a1_menu"
+        android:layout_below="@+id/textView" />
 
 </RelativeLayout>
