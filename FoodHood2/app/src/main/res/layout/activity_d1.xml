@@ -6,6 +6,147 @@
     android:layout_height="match_parent">
 
     <kr.adhood.foodhood2.ScalableLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1"
+        android:padding="0dp"
+        android:id="@+id/d1_cont_name"
+        sl:scale_base_width="400"
+        sl:scale_base_height="45"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inbox"
+            android:id="@+id/d1_inbox"
+            android:textStyle="bold"
+            sl:scale_left="10"
+            sl:scale_top="10"
+            sl:scale_width="150"
+            sl:scale_height="30"
+            sl:scale_textsize="20"
+            android:layout_gravity="top|center_vertical"
+            android:textColor="#000000" />
+
+    </kr.adhood.foodhood2.ScalableLayout>
+
+    <kr.adhood.foodhood2.ScalableLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1"
+        android:padding="0dp"
+        android:id="@+id/d1_profile"
+        sl:scale_base_width="400"
+        sl:scale_base_height="250"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/d1_cont_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/d1_ProfileImage"
+            android:clickable="true"
+            android:text="프로필이미지"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:padding="25dp"
+            sl:scale_left="20"
+            sl:scale_top="20"
+            sl:scale_width="90"
+            sl:scale_height="90" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/d1_ProfileEdit"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:padding="0dp"
+            sl:scale_left="180"
+            sl:scale_top="10"
+            sl:scale_width="150"
+            sl:scale_height="40" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/d1_Setting"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:padding="0dp"
+            sl:scale_left="340"
+            sl:scale_top="10"
+            sl:scale_width="40"
+            sl:scale_height="40" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/d1_Post"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:padding="0dp"
+            sl:scale_left="180"
+            sl:scale_top="50"
+            sl:scale_width="60"
+            sl:scale_height="60" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/d1_Follower"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:padding="0dp"
+            sl:scale_left="250"
+            sl:scale_top="50"
+            sl:scale_width="60"
+            sl:scale_height="60" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/d1_Following"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:padding="0dp"
+            sl:scale_left="320"
+            sl:scale_top="50"
+            sl:scale_width="60"
+            sl:scale_height="60" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/d1_ProfileWindow"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:padding="0dp"
+            sl:scale_left="20"
+            sl:scale_top="120"
+            sl:scale_width="360"
+            sl:scale_height="100" />
+
+    </kr.adhood.foodhood2.ScalableLayout>
+
+
+
+
+    <kr.adhood.foodhood2.ScalableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
