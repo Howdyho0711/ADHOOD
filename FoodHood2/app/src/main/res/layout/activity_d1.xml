@@ -42,12 +42,11 @@
         android:padding="0dp"
         android:id="@+id/d1_profile"
         sl:scale_base_width="400"
-        sl:scale_base_height="250"
+        sl:scale_base_height="220"
         android:background="@android:color/transparent"
         android:layout_below="@+id/d1_cont_name"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_above="@+id/a1_menu">
+        android:layout_alignParentStart="true">
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -132,7 +131,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/d1_ProfileWindow"
-            android:background="@android:color/transparent"
+            android:background="@android:color/holo_blue_bright"
             android:clickable="true"
             android:scaleType="centerCrop"
             android:layout_gravity="center_vertical"
@@ -140,16 +139,92 @@
             sl:scale_left="20"
             sl:scale_top="120"
             sl:scale_width="360"
-            sl:scale_height="100" />
+            sl:scale_height="40" />
 
     </kr.adhood.foodhood2.ScalableLayout>
 
-    <ListView
+    <kr.adhood.foodhood2.ScalableLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/d1_ChooseListView"
+        sl:scale_base_width="400"
+        sl:scale_base_height="40"
+        android:layout_alignBottom="@+id/d1_profile">
 
-    </ListView>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/d1_ListView_Post"
+            android:clickable="true"
+            android:text="게시물"
+            android:background="@android:color/holo_blue_dark"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:padding="25dp"
+            sl:scale_left="0"
+            sl:scale_top="0"
+            sl:scale_width="100"
+            sl:scale_height="40" />
 
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/d1_ListView_Info"
+            android:clickable="true"
+            android:text="가게정보"
+            android:padding="25dp"
+            android:background="@android:color/holo_green_dark"
+            android:scaleType="centerCrop"
+            sl:scale_left="100"
+            sl:scale_top="0"
+            sl:scale_width="100"
+            sl:scale_height="40"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/d1_ListView_Map"
+            android:clickable="true"
+            android:text="지도"
+            android:padding="25dp"
+            android:background="@android:color/holo_red_dark"
+            android:scaleType="centerCrop"
+            sl:scale_left="200"
+            sl:scale_top="0"
+            sl:scale_width="100"
+            sl:scale_height="40"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/d1_ListView_Coupon"
+            android:clickable="true"
+            android:text="쿠폰"
+            android:padding="25dp"
+            android:background="@android:color/holo_orange_dark"
+            android:scaleType="centerCrop"
+            sl:scale_left="300"
+            sl:scale_top="0"
+            sl:scale_width="100"
+            sl:scale_height="40"/>
+
+    </kr.adhood.foodhood2.ScalableLayout>
+
+
+    <kr.adhood.foodhood2.ScalableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/d1_ListView"
+        sl:scale_base_width="400"
+        sl:scale_base_height="200"
+        android:layout_alignTop="@id/d1_ChooseListView">
+
+
+
+
+    </kr.adhood.foodhood2.ScalableLayout>
 
 
 
